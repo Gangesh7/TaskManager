@@ -91,7 +91,13 @@ The application is deployed on Netlify. You can access it here:
 🔗 https://singular-bonbon-b5b342.netlify.app  Task Manager App
 
 ## 📷 Screenshots
-🚀 *Coming Soon*
+🚀 ![image](https://github.com/user-attachments/assets/d670cfe4-a9f9-48c2-86d8-f80203e092d2)
+   ![Screenshot 2025-02-19 024318](https://github.com/user-attachments/assets/6da8dc8e-f206-477d-bc19-43b1b4bc8c8f)
+   ![image](https://github.com/user-attachments/assets/d83d3879-c001-43ff-9a38-ff966edd1771)
+   ![image](https://github.com/user-attachments/assets/3e31b50d-2793-4465-81e4-edc335776a1b)
+
+
+
 
 ---
 
