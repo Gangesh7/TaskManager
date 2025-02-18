@@ -88,7 +88,7 @@ The backend will run on `http://localhost:5000` and the frontend on `http://loca
 Live Demo
 
 The application is deployed on Netlify. You can access it here:
-🔗 Task Manager App
+🔗 https://singular-bonbon-b5b342.netlify.app  Task Manager App
 
 ## 📷 Screenshots
 🚀 *Coming Soon*
