@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/ContextProvider';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -8,6 +9,7 @@ const Login = () => {
   const [error, setError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
   const navigate = useNavigate();
+  const {login} = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,12 +21,17 @@ const Login = () => {
         email,
         password,
       });
+console.log("Login Response:", response.data); 
 
       if (response.data.success) {
+        localStorage.setItem("token",response.data.token);
+        login(response.data.user, response.data.token);
+
         setSuccessMessage('Login successful! Redirecting...');
-        setTimeout(() => navigate('/'), 3000);
+        setTimeout(() => navigate('/'), 2000);
       }
     } catch (error) {
+      console.error("Login error:", error.response?.data || error);
       setError('Error occurred during login. Please try again.');
       console.log(error);
     }

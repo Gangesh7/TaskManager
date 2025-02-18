@@ -8,7 +8,8 @@ router.post('/add', middleware, async (req, res) => {
     try {
         const { title, description } = req.body;
 
-
+        console.log("🔹 User making request:", req.user);
+        
         const newNote = new Note({
             title,
             description,
@@ -27,9 +28,9 @@ router.post('/add', middleware, async (req, res) => {
 })
 
 
-router.get('/', async (req, res) => {
+router.get('/',middleware, async (req, res) => {
     try {
-        const notes = await Note.find();
+        const notes = await Note.find({userId:req.user.id});
         return res.status(200).json({ success: true, notes })
     }
     catch (error) {
