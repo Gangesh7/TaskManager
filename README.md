@@ -92,6 +92,8 @@ The application is deployed on Netlify. You can access it here:
 
 ## 📷 Screenshots
 🚀 ![image](https://github.com/user-attachments/assets/d670cfe4-a9f9-48c2-86d8-f80203e092d2)
+   ![image](https://github.com/user-attachments/assets/eb6c4c8a-94eb-484f-b262-01d1bf9f1af0)
+
    ![Screenshot 2025-02-19 024318](https://github.com/user-attachments/assets/6da8dc8e-f206-477d-bc19-43b1b4bc8c8f)
    ![image](https://github.com/user-attachments/assets/d83d3879-c001-43ff-9a38-ff966edd1771)
    ![image](https://github.com/user-attachments/assets/3e31b50d-2793-4465-81e4-edc335776a1b)
